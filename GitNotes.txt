@@ -1,0 +1,11 @@
+git config --global user.name "Moghal Akram Baig"
+git config --global user.email "moghalakrambaig8@gmail.com"
+touch .gitignore - Creates a Empty file named ".gitignore"
+git add . - Add all Files to the Staging Area
+git commit -m "Commiting for First Time" - Adds the files to Loacl Git Repository with a message
+git status - Gives status of the current Repository and files
+git remote add origin "Remote Repository SSH Link"- Link the local repository to remote repository with SSH Link
+
+
+
+
