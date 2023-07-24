@@ -5,11 +5,16 @@ git add . - Add all Files to the Staging Area
 git commit -m "Commiting for First Time" - Adds the files to Loacl Git Repository with a message
 git status - Gives status of the current Repository and files
 git remote add origin "Remote Repository SSH Link"- Link the local repository to remote repository with SSH Link
-To Push to the remote repository
-Generating a new SSH key
-ssh-keygen -t rsa -b 4096 -C "moghalakrambaig8@gmail.com"
+To Push to the remote repository we need access to our account's repository, To gain access:
 
-git push origin master - Push all files to remote repository
+Generating a new SSH key
+To create ssh key - > ssh-keygen -t rsa -b 4096 -C "moghalakrambaig8@gmail.com"
+
+To display SSH keyc -> cat " path to the file "id_rsa.pub" "
+Copy the ssh key and paste in github - settings - ssh and GPG keys - add new ssh key
+
+After adding SSH key type 
+git push origin master - all files will be pushed to remote repository successfully
 
 
 
