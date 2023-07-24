@@ -1,0 +1,75 @@
+Agile:
+Agile Manifesto was published in 2001.
+Agile is an Iterative and Incremental process.
+Agile Methods break the product into small incremental builds.
+These builds are provided in iterations.
+At the end of the iteration, a working product is displayed to the customer and important stakeholders.
+There will be good communication between Customer, Business Analyst, Developer and Tester.
+
+
+Principles:
+Accept the requirement changes.
+Deliver working software frequently, from acouple of weeks to a couple of months, with a preference to the shorter timescale.
+Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+Business people and developers must work together daily throughout the project.
+
+
+Advantages:
+Good communication between the team.
+Releases are frequent(Weekly).
+Customer no need to wait for long time.
+Accept requirement changes in any stage of Software Development.
+
+
+Disadvantages 
+Less focus on documentation since we deliver software very fast(Less Documentation and More Meetings) 
+Scrum 
+Scrum is a Framework used to build a Software by following the agile principles. 
+
+Scrum involving group of people called scrumping normally contains 5 to 9 people 
+
+Product owner 
+Master
+Development team
+QA Team 
+
+Product owner 
+Define features of the product
+Prioritize features according to market value
+adJust features and priority every iteration as needed 
+Accept or reject results 
+
+Scrum master 
+The main role of scrum Master is to facilitating and driving the other process.
+He manages the entire process of agile. 
+Developers and QA 
+Development test the software 
+
+
+User story a feature or modulus software
+Epic collection of user stories
+Product backlog contains list of user stories prepared by product owner 
+
+Sprint or iteration. Period of complete the user stories(Dev and Test) decided by product owner and team usually 2 to 4 weeks. 
+
+Print planning meeting conducted with the team to define what can be delivered in the sprint how many stories to develop and what time duration 
+Sprint backlog list of committed stories by development and Qatil for specific sprint 
+Cram meeting meeting conducted by scrum Master everyday 15 minutes also called as scrum call or stand up meeting
+What did you do yesterday what will you do today are there any impediments in your way 
+Print retrospective meeting conducted after completion of sprints the entire team including scrum master and product owner should participate
+Story point raf estimation of user stories will be given by development and q80 in the form of Fibonacci series newland one story one hour or one day 6 hours 
+Chat shows how much work remaining in the sprint maintained by scrum Master daily 
+Ajay process 
+Scrum process 
+Product owner takes the inputs from customers stakeholders users saxeto newly he will prepare a document call product backlog he will list out all the stories and rank them 
+Print planning meeting will happen in this all stories will be reviewed some stories will be selected 
+Sprint backlog in this dev and cuating will commit what stories will be develop and tested for the particular sprint 
+Best friend by clock is ready then the sprint will start it will be want to for weeks 
+During this print every 24 hours there will be daily scrum meeting conducted by scrum Master they will give updates what is the plan today what will they do today for 15 minutes 
+According to the scrum master will prepare for burn down charts or up charts after sprint duration is completed we will have a piece of software with some functionality 
+and print review is conducted in this cheque all test cases and all plant tasks are completed or not all bugs are closed or not
+Also provide demo to the product owner next print retrospective meaning meeting is conducted 
+A sprint retrospective is a meeting that is held after a sprint review and before the start of the next sprint. We will discuss what went well what went wrong improvement areas 
+
+
+
