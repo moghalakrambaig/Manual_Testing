@@ -1,0 +1,106 @@
+Agile Process / Agile Methodology:
+Agile Manifesto was published in 2001.
+Agile is an Iterative and Incremental process.
+Agile Methods break the product into small incremental builds.
+These builds are provided in iterations.
+At the end of the iteration, a working product is displayed to the customer and important stakeholders.
+There will be good communication between Customer, Business Analyst, Developer and Tester.
+
+
+Principles:
+Accept the requirement changes.
+Deliver working software frequently, from acouple of weeks to a couple of months, with a preference to the shorter timescale.
+Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+Business people and developers must work together daily throughout the project.
+
+
+Advantages:
+Good communication between the team.
+Releases are frequent(Weekly).
+Customer no need to wait for long time.
+Accept requirement changes in any stage of Software Development.
+
+
+Disadvantages:
+Less focus on documentation, since we deliver software very fast(Less Documentation and More Meetings).
+
+
+Scrum:
+Scrum is a Framework used to build a Software by following the agile principles.
+Scrum involves a group of people called scrum team containing 5 to 9 people.
+
+They are,
+1) Product Owner 
+2) Scrum Master
+3) Development Team
+4) QA Team 
+
+1) Product Owner:
+Defines the features of the product.
+Prioritize features according to market value.
+Adjust features and priority every iteration as needed.
+Accept or reject results.
+
+2) Scrum Master: 
+The main role of scrum Master is to facilitating and driving the other process.
+He manages the entire process of agile.
+
+3) Development Team:
+Development Team Designs and Develops the Software.
+
+4) QA Team:
+QA Team is responsible for Testing the Software.
+
+
+Scrum Terminology:
+
+1) User Story: A feature or module of a Software.
+
+2) Epic: A collection of User Stories.
+
+3) Product Backlog: It contains the list of User Stories prepared by the Product Owner. 
+
+4) Sprint or Iteration: 
+It is a period of time to complete the user stories(Develop and Test) decided by product owner and team usually 2 to 4 weeks. 
+
+5) Sprint Planning Meeting:
+Conducted with the team to define what can be delivered in the sprint and how many stories to develop in what time duration.
+Multiple sprints will be planned.
+
+6) Sprint Backlog: List of committed stories by Development and QA Teams for a specific sprint.
+
+7) Scram Meeting: It is conducted by Scrum Master everyday for 15 minutes, also called as scrum call or stand up meeting.
+They discuss,
+What did you do yesterday?
+What will you do today?
+Are there any impediments in your way?
+
+8) Sprint Retrospective Meeting:
+It that is held after a sprint review and before the start of the next sprint.
+Conducted after completion of each sprint, the entire team including scrum master and product owner should participate.
+
+9) Story Point: Rough estimation of user stories that will be given by development and QA teams in the form of Fibonacci series.
+Like, 1 Story Point -> 1 Hour / 1 Day (6 Hours)
+
+10) BurnDown/Up Charts: Shows how much work is remaining or done in the sprint, maintained by Scrum Master daily.
+
+Scrum Process:
+
+PRODUCT OWNER takes the inputs from customers, stakeholders, users. He will prepare a document called PRODUCT BACKLOG.
+He will list out all the stories in Product Backlog and rank them.
+
+Next, SPRINT PLANNING MEETING will happen in this all user stories will be reviewed some stories will be selected for each sprint.
+
+Next, A SPRINT BACKLOG is created in which Development and QA will commit what stories will be developed and tested for the particular sprint.
+Once the Sprint Backlog is ready then the SPRINT will start, it will be 1 to 4 weeks.
+
+During this sprint, every 24 hours there will be daily SCRUM MEETING conducted by scrum Master. 
+They will give updates like what is the plan for today?, Are there any impediments in your way? for 15 minutes.
+
+According to Scrum Meeting, scrum master will prepare a BURNDOWN/UP charts.
+After sprint duration is completed we will have a piece of software with some functionality.
+
+Then a SPRINT REVIEW is conducted in this we check all test cases and all planned tasks are completed or not, all bugs are closed or not.
+Also provide demo to the product owner.
+
+Before Next sprint a SPRINT RETROSPECTIVE MEETING is conducted. We will discuss what went well, what went wrong, Any improvement areas?.

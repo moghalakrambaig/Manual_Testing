@@ -1,0 +1,45 @@
+Git
+
+Set User Name and User Email:
+git config --global user.name "Moghal Akram Baig"
+git config --global user.email "moghalakrambaig8@gmail.com"
+
+Create a gitignore file:
+touch .gitignore - Creates a Empty file named ".gitignore"
+
+To Add all Files to the Staging Area:
+git add .
+
+To Add the files to Local Git Repository with a message:
+git commit -m "Commiting for First Time"
+
+To know the current status of Repository and files:
+git status
+
+Link the local repository to remote repository with SSH Link:
+git remote add origin "Remote Repository SSH Link"
+
+To Push to the remote repository we need access to our account's repository, To gain access,
+
+Generating a new SSH key:
+ssh-keygen -t rsa -b 4096 -C "moghalakrambaig8@gmail.com"
+
+To display SSH key: 
+cat " path to the file "id_rsa.pub" "
+
+Copy the SSH key and paste in github:
+Go to github settings -> ssh and GPG keys -> add new ssh key
+
+After adding SSH key, To add all files to remote repository:
+git push origin master
+
+To pull the repository:
+git clone <remote-repo-url>
+
+To pull the repository from a specific branch:
+git clone --branch <branchname> <remote-repo-url>
+
+
+
+
+
