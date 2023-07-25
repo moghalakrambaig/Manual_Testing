@@ -20,7 +20,7 @@ To make the product Defect/Bug Free.
 
 
 Software Quality:
-If a software has best quality then it must be
+If a software has best quality then it must be,
 1) Bug free
 2) Delivered on time
 3) Within budget
