@@ -1194,13 +1194,13 @@ No.of Test cases executed / Total No. of Test cases written ) * 100
 2) % of Test cases NOT executed:
 (No.of Test cases NOT executed/Total No. of Test cases written) * 100
 
-3) % of Test cases passed
+3) % of Test cases passed:
 (No.of Test cases Passed /Total Test cases executed) * 100
 
-4) % of Test cases failed
+4) % of Test cases failed:
 (No.of Test cases failed / Total Test cases executed) * 100
 
-5) % of Test cases blocked
+5) % of Test cases blocked:
 (No.of test cases blocked / Total Test cases executed) * 100
 
 6) Defect Density: 
