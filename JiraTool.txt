@@ -1,0 +1,27 @@
+Jira Tool
+
+Issues:
+Bug
+Task
+Epic
+Story
+
+1) Create a new project in Jira
+Projects -> Create Project -> Select Scrum -> Team Managed -> Project Name
+
+2) Add people/users to the Jira tool(Team Members)
+Settings -> User Management -> Enter emails of members -> Invite team members
+
+Enable Versions/Epic/backlog -> Project Settings -> Features -> Enable
+
+Add Issue Types:
+Select Project -> Project Settings -> Issue Types -> + Add Issue Type
+
+3) Creating Version:
+Select Project -> Backlog -> + Create Version -> Name, Dates, Description
+
+4) Creating Epic:
+Select Project -> Backlog -> + Create Epic -> Name, Summary -> Save
+
+5) Creating Stories:
+Select Project -> Create -> Issue Type(Story) -> Summary, Description, Assignee, Reporter, Linked Issue(Epic) -> Create
