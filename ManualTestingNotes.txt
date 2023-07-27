@@ -293,10 +293,13 @@ It is also called as clear box, glass box, transparent box Testing.
 		Using Statement and Branch coverage you generally attain 80-90% code coverage which is sufficient.
 		
 	White Box testing Types:
-	1) Unit Testing 
-	2) Integration Testing
-	3) White Box Penetration Testing: In this testing, the tester/developer has full information of the application’s source code, detailed network information, IP addresses involved and all server information the application runs on. The aim is to attack the code from several angles to expose security threats.
-	4) White Box Mutation Testing: Mutation testing is often used to discover the best coding techniques to use for expanding a software solution.
+		1) Unit Testing 
+		2) Integration Testing
+		3) White Box Penetration Testing: 
+			In this testing, the tester/developer has full information of the application’s source code, detailed network information, IP addresses involved and all server information the application runs on.
+			The aim is to attack the code from several angles to expose security threats.
+		4) White Box Mutation Testing:
+			Mutation testing is often used to discover the best coding techniques to use for expanding a software solution.
 
 	Some White box Testing tools are:
 	VeraCode, CppUnit, NUnit, RCUnit. etc.
@@ -309,7 +312,7 @@ It gives the ability to test both sides of a sofwtare i.e., Presentation Layer a
 It is Useful in Integration and penetration Testings.
 
 	Grey Box Testing Techniques:
-		Matix Testing - Defining all variables that exist in the program.
+		Matrix Testing - Defining all variables that exist in the program.
 		Regression Testing - This testing is done to ensure that recent code change has not affected the existing Features.
 		Orthogonal Array Testing
 		Pattern Testing
@@ -328,12 +331,15 @@ It is also known as Behavioral Testing.
 	5) Error Guessing
 
 	Types of Black Box Testing:
-	System Testing
-	Functional testing – This black box testing type is related to the functional requirements of a system; it is done by software testers.
-	Non-functional testing – This type of black box testing is not related to testing of specific functionality, but non-functional requirements such as performance, scalability, usability.
-	UAT(User Acceptance Testing)
-	Regression testing – Regression Testing is done after code fixes, upgrades or any other system maintenance to check the new code has not affected the existing code.
-
+		1) Functional Testing:
+			This black box testing type is related to the functional requirements of a system; it is done by software testers.
+		2) Non-functional Testing:
+			This type of black box testing is not related to testing of specific functionality, but non-functional requirements such as performance, scalability, usability.
+		3) Regression Testing:
+			Regression Testing is done after code fixes, upgrades or any other system maintenance to check the new code has not affected the existing code.
+		4) System Testing
+		5) UAT(User Acceptance Testing)
+	
 	Tools used for Black Box Testing:
 
 		Tools used for Black box testing largely depends on the type of black box testing you are doing.

@@ -1,13 +1,27 @@
 Jira Tool
 
-Issues:
+It is a Agile Management Tool.
+It is developed by Atlassian Company.
+
+Licensed Version
+Cloud Instance Free Version - 30 days / 10 people 
+
+In Jira Issues are,
 Bug
 Task
 Epic
 Story
 
+Sign Up for Jira:
+https://www.atlassian.com/software/jira
+
+After SignUp Create a site link.
+https://akramtestingpractice.atlassian.net/
+
+
 1) Create a new project in Jira
 Projects -> Create Project -> Select Scrum -> Team Managed -> Project Name
+Give Project Name and key will be automatically created.
 
 2) Add people/users to the Jira tool(Team Members)
 Settings -> User Management -> Enter emails of members -> Invite team members
@@ -25,3 +39,26 @@ Select Project -> Backlog -> + Create Epic -> Name, Summary -> Save
 
 5) Creating Stories:
 Select Project -> Create -> Issue Type(Story) -> Summary, Description, Assignee, Reporter, Linked Issue(Epic) -> Create
+
+6) Add a Story Point:
+Enable story Points for Story -> Project Settings -> Issue Type -> Story 
+Backlog -> Select Story -> Enter a number in story point -> Save
+
+&) Create a sprint and add stories in Jira:
+Enable Sprint in Project Settings
+Backlog -> Create sprint -> Add Stories to sprint(Drag and drop) -> Click Start sprint -> Enter Name, duration, Goal -> Start
+After starting sprint the stories are added to the Scrum borad/Story Board.
+
+8) Add Tasks for Each Story:
+Developers and Testers will add these tasks.
+Click on Sprint -> Link a Child issue/ Sub Tasks -> add the tasks
+
+9) Changing the status of Tasks:
+Click on Sprint -> Change from ToDo to In Progress or Done
+
+Test Management Activities
+1) Install Plugin Zephyr
+Go to Project -> Apps -> Explore more apps -> search zephyr -> Start
+
+2) Enable Zephyr
+Go to Project Settings -> Apps -> Zephyr -> Enable
