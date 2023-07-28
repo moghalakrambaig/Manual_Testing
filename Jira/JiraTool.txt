@@ -2,8 +2,9 @@ Jira Tool
 
 It is a Agile Management Tool.
 It is developed by Atlassian Company.
+Used For Both Agile/Scrum Related Activities and Test Management Activities.
 
-Licensed Version
+Pro - Licensed Version
 Cloud Instance Free Version - 30 days / 10 people 
 
 In Jira Issues are,
@@ -62,3 +63,26 @@ Go to Project -> Apps -> Explore more apps -> search zephyr -> Start
 
 2) Enable Zephyr
 Go to Project Settings -> Apps -> Zephyr -> Enable
+
+3) Create Test cases Manually:
+zephyr -> + New Test Case -> Name, Precondition, Priority etc
+Test Script -> Step, Test Data, ER
+
+4) Import Multiple Test Cases:
+Project -> Zephyr -> More -> Import From File
+Import CSV File
+SetUp -> Field Mapping -> Map the fields
+
+5) Add Test cases to Test Cycle:
+Project -> Zephyr -> Test Cycle -> + New Test Cycle -> Name, Description, Version etc -> Test Cases -> Add -> Save
+
+6) Test Execution
+Project -> Zephyr -> Test Cases -> Click on Test Case -> Execution -> Click on Test Case -> Execute the test cases and select Pass/Fail/Blocked
+
+7) Report a Bug
+Project -> Create -> Issue Type(Bug) -> Summary, Sprint, Epic, Assignee... -> Create
+For all Isuues Enable Issues in Project Settings -> Features -> Enable
+
+8) RTM and Other Reports:
+Project -> Zephyr -> Reports
+Agile Reports -> Go to Project Settings -> Features -> Enable Reports

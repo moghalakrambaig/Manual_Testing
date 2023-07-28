@@ -48,11 +48,14 @@ Go to github settings -> ssh and GPG keys -> add new ssh key
 After adding SSH key, To add all files to remote repository:
 git push origin master
 
-To pull the repository:
+To clone the repository:
 git clone <remote-repo-url>
 
-To pull the repository from a specific branch:
+To clone the repository from a specific branch:
 git clone --branch <branchname> <remote-repo-url>
+
+
+git config --global core.askpass "git-gui--askpass"
 
 
 

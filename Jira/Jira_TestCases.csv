@@ -1,0 +1,35 @@
+Test Case Name,Test Case Description,#,Test Step,Test Data,Test Result,Labels
+Register User,Validate Register an Account By providing all the fields,1,"Click on 'My Account' Drop menu
+",https://demo.opencart.com/,,
+,,2,"Click on 'Register' option 
+",https://demo.opencart.com/,,
+,,3,"Enter new Account Details into all the Fields (First Name, Last Name, E-Mail,Telephone, Password, Password Confirm, Newsletter and  Privacy Policy Fields)
+","First Name: Moghal Akram
+Last Name: Baig 
+E-Mail: moghal@gmail.com
+Telephone: 9705170130
+Password: India@123
+Password Confirm: India@123",,
+,,4,"Click on 'Continue' button (ER-1)
+",,"""1. User should be logged in,  taken to 'Account Succcess' page and proper details should be displayed on the page
+",
+,,5,Click on 'Continue' button that is displayed in the 'Account Success' page (ER-2),,2. User should be taken to 'Account' page,
+,,,,,,
+,,,,,,
+Register User,Validate 'Thank you for registering' email is sent to the registered email address as a confirmation for registering the account,1,"Click on 'My Account' Drop menu
+",https://demo.opencart.com/,,
+,,2,"Click on 'Register' option 
+",https://demo.opencart.com/,,
+,,3,"Enter new Account Details into all the Fields (First Name, Last Name, E-Mail,Telephone, Password, Password Confirm, Newsletter and  Privacy Policy Fields)
+","First Name: Moghal Akram
+Last Name: Baig 
+E-Mail: moghal@gmail.com
+Telephone: 9705170130
+Password: India@123
+Password Confirm: India@123",,
+,,4,"Click on 'Continue' button (ER-1)
+",,,
+,,5,"5. Check the email address used for registering the account (Verify ER-1, ER-2. ER-3)",,"1. Validate a confirmation email for registering the account is sent to the registered email address. 
+2. Validate the Email subject, body and from address of the received email.
+3. Validate there is a link to the login page provided in the Email body",
+,,6,6. Click on the Login page link from the Email body (Verify ER-4),,4. User should be taken to the Login page,
