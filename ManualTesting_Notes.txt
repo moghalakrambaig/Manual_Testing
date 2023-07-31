@@ -1,3 +1,5 @@
+Manual Testing:
+
 Software:
 A Collection of computer programs used to perform a task.
 
@@ -12,12 +14,10 @@ Examples: Compilers, Interpreters.
 3) Application Software:
 Examples: Web Application, Mobile Application, Desktop Application.
 
-
 Software Testing:
 It is a part of Software Development Process to detect and identify bugs in a software.
 The main objective of testing is to release quality product according to the client requirements.
 To make the product Defect/Bug Free.
-
 
 Software Quality:
 If a software has best quality then it must be,
@@ -30,7 +30,6 @@ If a software has best quality then it must be,
 Example:
 X company gives project to an IT company --> IT comapny will develop --> test --> deliver to the X Company
 
-
 What is a project?
 If a software is developed for a specific customer based on the requirements it is called a project.
 
@@ -40,6 +39,8 @@ If a software is developed for multiple customers based on the market requiremen
 Why do we need Testing?
 To release a quality product to the customer/client.
 
+Manual Testing:
+Manual Testing is a kind of software testing in which a software tester develops and executes the test cases without using any automated testing tools.
 
 QA | QC | QE:
 QA = Quality Assurance
@@ -57,7 +58,6 @@ QC = Quality Control
 QE = Quality Engineer
 - Responsible to write code for testing (Automation Engineer).
 
-
 What is an Error, Bug/Defect and Failure?
 Error: Error is a human mistake, a developer while writing a program will do many mistakes it comes under Error.
 
@@ -65,7 +65,6 @@ Bug/Defect: After product is developed while testing if something is not working
 
 Failure: After releasing the product to the customer and customer uses the software in the real environment where he found some issues those are failures.
 It is a end user action.
-
 
 There are 3 p's in any industry:
 p for people 
@@ -242,7 +241,9 @@ Validation
 					Bottom Up
 					Sandwich or Hybrid
 				Non-Incremental Integration Testing / Big Bang Testing
-				
+			White Box Penetration Testing
+			White Box Mutation Testing
+			
 		Black Box Testing
 			System Testing
 				User Interface Testing(GUI Testing)
@@ -299,7 +300,9 @@ It is also called as clear box, glass box, transparent box Testing.
 			In this testing, the tester/developer has full information of the application’s source code, detailed network information, IP addresses involved and all server information the application runs on.
 			The aim is to attack the code from several angles to expose security threats.
 		4) White Box Mutation Testing:
-			Mutation testing is often used to discover the best coding techniques to use for expanding a software solution.
+			Mutation Testing is a type of software testing in which certain statements of the source code are changed/mutated to check if the test cases are able to find errors in source code.
+			The goal of Mutation Testing is ensuring the quality of test cases in terms of robustness that it should fail the mutated source code.
+			The goal is to ensure a software test can detect code that isn't properly tested.
 
 	Some White box Testing tools are:
 	VeraCode, CppUnit, NUnit, RCUnit. etc.
@@ -312,10 +315,10 @@ It gives the ability to test both sides of a sofwtare i.e., Presentation Layer a
 It is Useful in Integration and penetration Testings.
 
 	Grey Box Testing Techniques:
-		Matrix Testing - Defining all variables that exist in the program.
-		Regression Testing - This testing is done to ensure that recent code change has not affected the existing Features.
-		Orthogonal Array Testing
-		Pattern Testing
+		1) Matrix Testing - Defining all variables that exist in the program.
+		2) Regression Testing - This testing is done to ensure that recent code change has not affected the existing Features.
+		3) Orthogonal Array Testing
+		4) Pattern Testing
 
 
 Black Box Testing:
@@ -347,7 +350,6 @@ It is also known as Behavioral Testing.
 		For Non-Functional Tests, you can use – LoadRunner, Jmeter
 
 
-
 Levels of Testing:
 1) Unit Testing 
 2) Integration Testing
@@ -362,29 +364,60 @@ It is a White Box Testing technique.
 Unit Testing is conducted by developers.
 
 	Unit Testing techniques:
-		1) Basis Path Testing 
+	
+		1) Statement Coverage
+		Statement Coverage is a white box testing technique in which all the executable statements in the source code are executed at least once.
+		   Statement Coveroge = Number of executed statements / Total number of statements x 100
+			Example: If a = 5, b = 4
+				print (int a, int b) 
+				{   
+					int sum = a+b;   
+					if (sum>0)   
+						print ("This is a positive result")   
+					else   
+						print ("This is negative result")   
+				}   
+			Total number of statements = 7  
+			Number of executed statements = 5  
+
+			Statement coverage = 5/7*100   
+				= 500/7  
+				= 71%   
+
+		2) Decision Coverage
+		Decision Coverage is a white box testing technique which reports the true or false outcomes of each boolean expression of the source code.
+		Decision coverage = number of decision outcomes exercised / total number of decision outcomes x	100
+		
+		3) Branch Coverage
+		Branch Coverage is a white box testing method in which every outcome from a code module(statement or loop) is tested.
+		It covers all the possible outcomes (true and false) of each condition of decision point at least once.
+		Example: Path 1 - A1-B2-C4-D6-E8
+				 Path 2 - A1-B3-5-D7
+				 Branch Coverage (BC) = Number of paths = 2
+				 
+		4) Conditional Coverage:
+		Condition Coverage or expression coverage is a testing method used to test and evaluate the variables or sub-expressions in the conditional statement.
+		Condition coverage = number of executed Operands / total number of Operands x 100
+		Example: If X<Y and A>B then
+				 X=3,Y=4 A=3,B=4
+				 (x<y)	TRUE
+				 (a>b)	FALSE
+				 Condition Coverage is ¼ = 25%
+				 
+		5) Basis Path Testing:
 		Basis Path Testing in software engineering is a White Box Testing method in which test cases are defined based on flows or logical paths that can be taken through the program. 
 		 
-		2) Mutation Testing
+		6) Mutation Testing:
 		Mutation Testing is a type of software testing in which certain statements of the source code are changed/mutated to check if the test cases are able to find errors in source code.
 		The goal of Mutation Testing is ensuring the quality of test cases in terms of robustness that it should fail the mutated source code.
+		The goal is to ensure a software test can detect code that isn't properly tested.
 		
-		3) Control Structure Testing 
+		7) Control Structure Testing 
 			- Conditional Coverage 
 			- Data flow testing
 			- Loops Coverage
-			
-		4) Statement Coverage - In this every Statem in the code is tested atleast once during testing process.
-		   Statement Coveroge = Number of executed statements x 100
-							      Total number of statements
-							  
-		5) Decision Coverage
-		Decision Coverage is a white box testing technique which reports the true or false outcomes of each boolean expression of the source code.
-		
-		6) Branch Coverage
-		Branch Coverage is a white box testing method in which every outcome from a code module(statement or loop) is tested.
-		
-		7) Finite State Machine Coverage
+				 
+		8) Finite State Machine Coverage
 		
 		Using Statement and Branch coverage you generally attain 80-90% code coverage which is sufficient.
 
@@ -434,21 +467,21 @@ GUI Testing(Graphical User Interface Testing) is a process of testing user inter
 Graphical user interface includes all elements such as check boxes, radio button, icons, images, fonts etc.
 
 GUI check list:
-Testing the size position with height of the elements
-Testing of error messages that are getting displayed 
-Testing the different sections of the screen 
+Testing the size position with height of the elements.
+Testing of error messages that are getting displayed.
+Testing the different sections of the screen.
 Testing of the font weather it is readable or not 
-Testing of the screen in different resolutions with the help of zooming in and zooming out 
-Testing the alignment of the text and other elements like icons buttons etc are in proper place or not 
-Testing the colour of the faults 
-Testing whether image has good clarity or not 
-Testing the alignment of images testing the spelling 
-Testing whether the interface is attractive or not 
-The user must not be get first frustrated while using the system interface 
-Testing of scrollbar according to size of the page 
-Testing of disable fields if any testing of size of the images 
-Testing of headings whether it is properly aligned or not 
-Testing of colour of hyperlink 
+Testing of the screen in different resolutions with the help of zooming in and zooming out. 
+Testing the alignment of the text and other elements like icons buttons etc are in proper place or not. 
+Testing the colour of the faults. 
+Testing whether image has good clarity or not. 
+Testing the alignment of images testing the spelling. 
+Testing whether the interface is attractive or not. 
+The user must not be get first frustrated while using the system interface. 
+Testing of scrollbar according to size of the page. 
+Testing of disable fields if any testing of size of the images. 
+Testing of headings whether it is properly aligned or not. 
+Testing of colour of hyperlink. 
 Testing UI elements like textbox, radio button, drop down, links, text area, check box etc.
 
 
@@ -568,7 +601,7 @@ Types of testings involved in Non Functional Testing:
 	
 	
 Functional Testing                              versus                  Non Functional Testing:
-Validates functionality of software 									Verify performance security reliability of an application
+Validates functionality of software 									Verify performance, security, reliability of an application
 Relative describes what software does 									It describes how software works.
 Focuses on user requirements											Focuses on user Expectations.
 Functional testing takes place before Non Functional Testing 			Non functional testing is performed after finishing Functional Testing
@@ -714,7 +747,7 @@ Positive Testing vs Negative Testing
 Globalization Testing/ Internationalization Testing(I18N) vs Localization Testing
 
 
-Test Design Techniques/ Test Data Design Techniques/ Test Case Design Techniques:
+Test Design Techniques/ Test Data Design Techniques/ Test Case Design Techniques/ Black Box Testing Techniques:
 These are Black Box Testing Techniques.
 To reduce Data and have more coverage.
 1) Equivalance Class Partitioning
@@ -804,7 +837,6 @@ It depensds on tester's analytical skills and experience.
 Examples:
 Submitting a form without entering values.
 Entering alphabets in numeric field.
-
 
 
 STLC: Software Testing Life Cycle
@@ -1167,11 +1199,10 @@ Phases of STLC:
 	Sign Off - Have a meeting, cross check everything and agree to sign off, Build is ready for production or UAT Testing.
 		
 	Deliverables:
-		- Test Closure report
+		- Test Closure report/Test Summary Report
 		- Test metrics
 	
 
-	
 Test Metrics:
 This Data is Required to calculate the Test Metrics.
 
@@ -1229,7 +1260,6 @@ B- Defects identified by the customer/Missed defects
 Customer satisfaction = No.of complaints per Period of time
 
 
-﻿
 QA/Testing Activities:
 
 - Understanding the requirements and functional specifications of the application.

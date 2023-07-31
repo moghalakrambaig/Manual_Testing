@@ -1,0 +1,5 @@
+docker.io
+docker-compose
+docker
+python3
+apt-get update

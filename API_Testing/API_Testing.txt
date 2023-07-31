@@ -1,0 +1,125 @@
+API(Application Programming Interface):
+
+Client
+It is a Computer Hardware device or a Software which accesses the services provided by the server.
+
+Server
+A physical computer dedicated to run the services.
+Depending on the service it can be a file server, database server, email server, home media server etc.
+
+
+Client/Server Architecture:
+
+1-Tier Architecture
+In one tier architecture the client computer and the server is on the same machine.
+
+2-Tier Architecture
+In 2-Tier Architecture, the client computers access the data from the database server which is present outside the clients computer environment.
+
+3-Tier Architecture
+In this we have,
+client Tier, business logic Tier and database Tier.
+In Client Tier we have client computers.
+In Business logic Tier we have the application server in which the application is installed.
+In Database Tier we have the Database servers in which the data is stored.
+
+
+Layers of a Web Application:
+1) Presentation Layer
+The presentation layer is what a user sees and interacts with. This is essentially the client side of an app.
+It contains interface components and user process components that facilitate the user’s interaction with the app.
+
+2) Application Layer/ Business Logic Layer
+The business logic layer is responsible for data exchange and the app’s overall functionality.
+Data Processing is done here.
+It contains all the logic for business operations, such as rules and conditions.
+API Lies here.
+
+3) Data Layer/ Data Base Layer
+The data layer transfers data from the server to the presentation layer.
+The data layer provides access to your data, including binary and XML files.
+This is the layer that performs data management operations such as create, read, update, and delete (CRUD).
+
+
+HTTP vs HTTPS
+HTTP(Port 80)
+HTTP stands for HyperText Transfer Protocol.
+It is invented by Tim Berner.
+HTTP provides a standard between a web browser and a web server to establish communication.
+It is a set of rules for transferring data from one computer to another.
+
+HTTPS(Port 443)
+HTTPS stands for Hyper Text Transfer Protocol Secure. 
+HTTPS is more secure than HTTP because HTTPS is certified by the SSL(Secure Socket Layer).
+Whatever website you are visiting on the internet, if its URL is HTTP, then that website is not secure. 
+
+
+URI, URL, URN
+URI - uniform resource identifier
+URL - uniform resource locator
+URN - uniform resource name 
+
+https://www.geeksforgeeks.org/difference-between-http-and-https/
+
+https is Scheme
+www.geeksforgeeks.org is Host
+/difference-between-http-and-https is Path
+
+URI - www.geeksforgeeks.org/difference-between-http-and-https/
+URL/URI - https://www.geeksforgeeks.org/difference-between-http-and-https/
+URN/EndPoint - /difference-between-http-and-https/
+
+
+What is an API?
+API means Application Programming Interface.
+An application programming interface is a way for two or more computer programs to communicate with each other.
+The word Application refers to any software with a distinct function.
+Interface can be thought of as a contract of service between two applications.
+This contract defines how the two communicate with each other using requests and responses.
+
+Types of API's
+SOAP(simple object access protocol)
+REST(representational state transfer)
+
+
+Differences between API and Web Services
+Web service is a collection of open source protocols and standards used for exchanging data between systems or applications.
+whereas API is a software interface that allows two applications to interact with each other without any user involvement.
+When an API is made available to public on internet it is a Web Service.
+Web service supports only HTTP protocol, whereas API supports HTTP/HTTPS protocol.
+Web service supports XML, while API supports XML and JSON.
+All Web services are APIs, but all APIs are not web services.
+
+
+Rest API methods / HTTP methods
+
+GET - Receive information about an API resource
+POST - Create an API resource
+PUT -  Update an API resource
+DELETE  - Delete an API resource
+
+Request Message(Get, Post, Put, Patch, Delete) ->  API -> Response Message(Perform Validations on Response Status Code,Data etc)
+
+
+Feature vs Resource
+Feature is a term used in Manual Testing to test Some Functionality.
+Simillarly, Resource is a term used in API Testing referring some Functionality.
+
+
+Payload:
+Payload means body in HTTP request and response message.
+Request Payload
+Response Payload
+
+When HTTP request is sent it contains URL, headers, Request Payload - JSON or XML.
+When HTTP response is received we get status code 200 ok, Response Payload, String message successful.
+
+Rest API Examples:
+Payment gateways
+Google maps
+Linkedin 
+Facebook 
+Twitter
+GitHub
+
+Sample API Testing Website: https://reqres.in/
