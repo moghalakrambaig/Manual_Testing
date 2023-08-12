@@ -97,6 +97,7 @@ GET - Receive information about an API resource
 POST - Create an API resource
 PUT -  Update an API resource
 DELETE  - Delete an API resource
+PATCH
 
 Request Message(Get, Post, Put, Patch, Delete) ->  API -> Response Message(Perform Validations on Response Status Code,Data etc)
 
@@ -123,3 +124,43 @@ Twitter
 GitHub
 
 Sample API Testing Website: https://reqres.in/
+
+
+API Testing Using Postman
+Manual API Testing is Done using Postman
+
+1) Creating a Workspace
+2) Creating Collection
+Workspace -> New Collection
+Collection Contains number of folder and HTTP Requests
+Any number of collection can be created in a single workspace
+
+Request ---> API ----> Response
+
+https://reqres.in/api/users?page=2
+
+(https://reqres.in)Host or Domain (/api/users) Path Parameters ? (page=2) Query Parameters
+
+3) Creating a Request
+
+1) Get Request
+Workspace -> Collection -> Add a Request(GET)
+Paste the Link -> Click Send
+Validations are done on response
+
+Response Validations
+Status Code
+Time
+Size of Data
+Responce Body(JSon/XML)
+Cookies
+Headers
+
+2) POST Request
+Create a Post request and paste the URL
+Add the Request Payload in Body section
+Select raw and JSON/XML according to requirement
+Click Send
+Validations are done on response
+
+
